@@ -83,9 +83,11 @@ p{
     color: blue;
 }
 
-#galeria img{
+#galeria {
+    img{
     transition: all 0.4s;
-}
-#galeria img:hover{
-    transform: scale(1.2);
+    &:hover{
+        transform: scale(1.2);
+    }
+  }
 }
